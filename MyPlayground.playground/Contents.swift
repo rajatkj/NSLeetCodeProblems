@@ -2,9 +2,7 @@ import SwiftUI
 import Foundation
 
 
-var array1 = [2,2,3,0,0,0]
-var array2: [Int] = [2,3,4]
+var nums: [Int] = [2]
+var val = 2
 
-merge(&array1, 3, array2, 3)
-
-print(array1)
+print(removeElement(&nums, val))
