@@ -2,6 +2,6 @@ import SwiftUI
 import Foundation
 
 
-var nums: [Int] = [2,2,1,1,1,2,2,1,1]
-let k = majorityElement(nums)
+var prices: [Int] = [7,1,4,2,5, 0]
+let k = maxProfit(prices)
 print(k)
