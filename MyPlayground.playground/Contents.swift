@@ -2,8 +2,8 @@ import SwiftUI
 import Foundation
 
 
-var roman = "IX"
+var string = "luffy is still joyboy     "
 
-var result = romanToInt(roman)
+var result = lengthOfLastWord(string)
 
 print(result)
