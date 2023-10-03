@@ -2,8 +2,8 @@ import SwiftUI
 import Foundation
 
 
-var string = "luffy is still joyboy     "
+var strs = ["flower"]
 
-var result = lengthOfLastWord(string)
+var result = longestCommonPrefix(strs)
 
 print(result)
