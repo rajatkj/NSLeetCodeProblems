@@ -2,8 +2,9 @@ import SwiftUI
 import Foundation
 
 
-var strs = ["flower"]
+var needle = "c"
+var haystack = "abc"
 
-var result = longestCommonPrefix(strs)
+var result = strStr(haystack, needle)
 
 print(result)
