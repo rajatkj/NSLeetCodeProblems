@@ -5,6 +5,7 @@ import Foundation
 // Time taken: 45 mins
 // Result: Failed(Couldn't complete)
 // Checked the solutions but still don't understand
+// What I learned: Some solutions use the same technique as some of the previous one(Sliding window here). Also, Stop over optimising
 public func strStr(_ haystack: String, _ needle: String) -> Int {
         
     if needle.count > haystack.count {
