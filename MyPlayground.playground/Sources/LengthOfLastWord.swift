@@ -6,7 +6,6 @@ import Foundation
 // What I Learned: Trusting the solution I come up with and incrementally approach optimisation. Sometimes simple solution is the right one.
 public func lengthOfLastWord(_ s: String) -> Int {
     var lengthOfWord = 0
-    let arrayForString = Array(s)
     
     for character in s.reversed() {
         

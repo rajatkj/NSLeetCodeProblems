@@ -1,10 +1,9 @@
 import SwiftUI
 import Foundation
 
+let string = "A man, a plan, a canal: Panama"
 
-var needle = "c"
-var haystack = "abc"
-
-var result = strStr(haystack, needle)
+var result = isPalindrome(string)
 
 print(result)
+
