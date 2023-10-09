@@ -1,9 +1,10 @@
 import SwiftUI
 import Foundation
 
-let string = "A man, a plan, a canal: Panama"
+let s = "acb"
+let t = "ahbgdc"
 
-var result = isPalindrome(string)
+var result = isSubsequence(s, t)
 
 print(result)
 
