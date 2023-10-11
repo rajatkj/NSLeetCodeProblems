@@ -1,10 +1,7 @@
 import SwiftUI
 import Foundation
 
-let s = "acb"
-let t = "ahbgdc"
+let message = "abc"
+let substring = "c"
 
-var result = isSubsequence(s, t)
-
-print(result)
-
+let result = strStr(message, substring)
