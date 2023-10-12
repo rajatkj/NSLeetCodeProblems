@@ -1,7 +1,8 @@
 import SwiftUI
 import Foundation
 
-let message = "abc"
-let substring = "c"
+var array = [1,1,1,1,2,2,2,2,2,3,3,3,4,5]
+let result = removeDuplicatesII(&array)
 
-let result = strStr(message, substring)
+print(array)
+print(result)

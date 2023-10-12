@@ -17,16 +17,19 @@ public func strStr(_ haystack: String, _ needle: String) -> Int {
         return needle == haystack ? 0 : -1
     }
     
-    var haystackIndex = haystack.startIndex
+    let haystackStartIndex = haystack.startIndex
+    let needleStartIndex = needle.startIndex
     
-    for index in 0...haystack.count-needle.count {
-        
-        let stringIndex = haystack.index(haystackIndex, offsetBy: needle.count)
-        if haystack[haystackIndex..<stringIndex] == needle {
-            return index
+    for index in 0...haystack.count-needle.count+1 {
+
+        for needleIndex in 0...needle.count - 1 {
+            if haystack[haystack.index(haystackStartIndex, offsetBy: index + needleIndex)] != needle[needle.index(needleStartIndex, offsetBy: needleIndex)] {
+                break
+            } 
+            if needleIndex == needle.count - 1 {
+                return index
+            }
         }
-        
-        haystackIndex = haystack.index(after: haystackIndex)
     }
     
     return -1
