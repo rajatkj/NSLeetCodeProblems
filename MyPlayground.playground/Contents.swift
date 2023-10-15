@@ -1,8 +1,11 @@
 import SwiftUI
 import Foundation
 
-var array = [1,1,1,1,2,2,2,2,2,3,3,3,4,5]
-let result = removeDuplicatesII(&array)
+var array = [1,2,3,4]
+
+var k = 3
+
+
+rotate(&array, k)
 
 print(array)
-print(result)
