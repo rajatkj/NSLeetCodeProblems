@@ -1,11 +1,15 @@
 import SwiftUI
 import Foundation
 
-var array = [1,2,3,4]
 
-var k = 3
+//readFile()
+let array = [
+    [3],
+    [7, 4],
+    [2, 4, 6],
+    [8, 5, 9, 3]
+]
+
+readFile()
 
 
-rotate(&array, k)
-
-print(array)
